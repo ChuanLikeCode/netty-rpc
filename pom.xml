@@ -9,6 +9,15 @@
     <version>1.0.0.RELEASE</version>
     <name>Netty-RPC</name>
     <description>A toolkit for RPC using Netty</description>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/ChuanLikeCode/netty-rpc/issues</url>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:https://github.com/ChuanLikeCode/netty-rpc.git</connection>
+        <developerConnection>scm:git:git@github.com:ChuanLikeCode/netty-rpc.git</developerConnection>
+        <url>https://github.com/ChuanLikeCode/netty-rpc</url>
+    </scm>
     <developers>
         <developer>
             <id>cat</id>
