@@ -31,9 +31,8 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 
 /**
- * @Author: 01397429 周川
- * @Description: 解码器
- * @Date: create in 2021/2/26 10:19
+ * @author :  周川
+ * @version : 解码器
  */
 public class RpcDecoder extends ByteToMessageDecoder {
 

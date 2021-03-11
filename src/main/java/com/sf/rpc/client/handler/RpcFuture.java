@@ -37,9 +37,8 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/5 10:25
+ * @author :  周川
+ * @version :
  */
 public class RpcFuture implements Future<Object> {
     private static final Logger logger = LoggerFactory.getLogger(RpcFuture.class);

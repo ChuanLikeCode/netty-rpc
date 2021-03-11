@@ -22,9 +22,8 @@ package com.sf.rpc.common.codec;
 //                      佛祖保佑         永无BUG
 
 /**
- * @Author: 周川
- * @Description:
- * @Date: create in 2021/2/26 10:32
+ * @author : 周川
+ * @version : Netty 心跳检测机制
  */
 public final class Beat {
     public static final int BEAT_INTERVAL = 30;

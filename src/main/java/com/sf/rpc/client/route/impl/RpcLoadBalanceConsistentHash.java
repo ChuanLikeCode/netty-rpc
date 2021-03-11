@@ -31,13 +31,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/2 16:57
- */
-
-/**
- * 一致性hash算法
+ * @author :  周川
+ * @version : 一致性hash算法
  */
 public class RpcLoadBalanceConsistentHash extends RpcLoadBalance {
     @Override

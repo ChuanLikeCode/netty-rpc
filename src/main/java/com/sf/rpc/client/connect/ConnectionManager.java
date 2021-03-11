@@ -53,13 +53,8 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @Author: 周川
- * @Description: 服务连接管理器
- * @Date: create in 2021/3/2 15:21
- */
-
-/**
- * 服务连接管理器
+ * @author : 周川
+ * @version : 服务连接管理器
  */
 public class ConnectionManager {
     private static final Logger logger = LoggerFactory.getLogger(ConnectionManager.class);
@@ -209,10 +204,10 @@ public class ConnectionManager {
     /**
      * 根据 serviceKey 选择服务端连接
      *
-     * @param className
-     * @param version
-     * @return
-     * @throws Exception
+     * @param className 接口名字
+     * @param version 类版本
+     * @return RpcClientHandler
+     * @throws Exception 异常
      */
     public RpcClientHandler chooseHandler(String className, String version) throws Exception {
         int size = connectedServerNodes.values().size();

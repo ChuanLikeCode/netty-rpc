@@ -36,9 +36,8 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/1 14:45
+ * @author :  周川
+ * @version :
  */
 public class RpcServer extends NettyServer implements ApplicationContextAware, InitializingBean, DisposableBean {
     public RpcServer(String serverAddress, String serviceRegistry) {
@@ -48,7 +47,7 @@ public class RpcServer extends NettyServer implements ApplicationContextAware, I
     /**
      * 如果存在服务端则开启
      * 不存在则不开启服务端
-     * @throws Exception
+     * @throws Exception 异常
      */
     @Override
     public void destroy() throws Exception {
@@ -68,8 +67,8 @@ public class RpcServer extends NettyServer implements ApplicationContextAware, I
 
     /**
      * 初始化 服务信息
-     * @param applicationContext
-     * @throws BeansException
+     * @param applicationContext 上下文信息
+     * @throws BeansException 异常
      */
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {

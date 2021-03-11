@@ -37,9 +37,8 @@ import java.util.Map;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/2/26 10:31
+ * @author :  周川
+ * @version :
  */
 public class RpcServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
     private static final Logger logger = LoggerFactory.getLogger(RpcServerHandler.class);

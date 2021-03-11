@@ -33,9 +33,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Author: 01397429 周川
- * @Description: 发现注册的服务信息
- * @Date: create in 2021/3/1 17:19
+ * @author :  周川
+ * @version : 发现注册的服务信息
  */
 public class ServiceDiscovery {
     private static final Logger logger = LoggerFactory.getLogger(ServiceDiscovery.class);

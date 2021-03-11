@@ -36,9 +36,8 @@ import org.apache.zookeeper.Watcher;
 import java.util.List;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/2/26 14:27
+ * @author : 周川
+ * @version :
  */
 public class CuratorClient {
     private CuratorFramework client;

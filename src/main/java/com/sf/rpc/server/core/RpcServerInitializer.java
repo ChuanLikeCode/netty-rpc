@@ -35,9 +35,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/1 11:10
+ * @author :  周川
+ * @version :
  */
 public class RpcServerInitializer extends ChannelInitializer<SocketChannel> {
     private Map<String, Object> handlerMap;

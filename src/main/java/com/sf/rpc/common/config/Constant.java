@@ -1,9 +1,8 @@
 package com.sf.rpc.common.config;
 
 /**
- * @author: 周川
- * @description:
- * @create: 2021-03-11 20:34
+ * @author : 周川
+ * @version :
  **/
 
 public interface Constant {

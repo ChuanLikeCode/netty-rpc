@@ -39,9 +39,8 @@ import java.util.Map;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/2/26 13:53
+ * @author :  周川
+ * @version :
  */
 public class NettyServer extends Server{
 

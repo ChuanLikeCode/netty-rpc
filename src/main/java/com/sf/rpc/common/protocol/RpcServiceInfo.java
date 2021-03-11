@@ -26,9 +26,8 @@ import com.sf.rpc.untils.JsonUtil;
 import java.util.Objects;
 
 /**
- * @Author: 01397429 周川
- * @Description: 服务注册信息
- * @Date: create in 2021/2/26 14:52
+ * @author : zhouchuan
+ * @version : Service registration information
  */
 public class RpcServiceInfo {
     private String serviceName;

@@ -24,9 +24,8 @@ package com.sf.rpc.common.codec;
 import java.io.Serializable;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/2/25 18:02
+ * @author : 周川
+ * @version :
  */
 public class RpcResponse implements Serializable {
     private static final long serialVersionUID = 6289578557490494196L;

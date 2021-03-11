@@ -15,9 +15,8 @@ import java.net.SocketAddress;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/2 16:13
+ * @author :  周川
+ * @version :
  */
 public class RpcClientHandler extends SimpleChannelInboundHandler<RpcResponse> {
 

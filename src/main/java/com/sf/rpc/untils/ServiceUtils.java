@@ -29,9 +29,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/2/26 14:00
+ * @author :  周川
+ * @version :
  */
 public class ServiceUtils {
     //    private static final Logger logger = LoggerFactory.getLogger(ServiceUtils.class);

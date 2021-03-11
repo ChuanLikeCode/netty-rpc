@@ -25,9 +25,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/9 18:04
+ * @author : 01397429 周川
+ * @version :
  */
 @EnableConfigurationProperties(NettyRpcConfig.class)
 @ConfigurationProperties(prefix = "netty.rpc")

@@ -8,9 +8,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @Author: 01397429 周川
- * @Description: 标识这个类是Rpc远程调用需要
- * @Date: create in 2021/3/1 15:06
+ * @author :  周川
+ * @version : 标识这个类是Rpc远程调用需要
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

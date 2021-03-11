@@ -36,13 +36,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author: 01397429 周川
- * @Description: 调度算法
- * @Date: create in 2021/3/2 15:55
- */
-
-/**
- * 调度算法
+ * @author  : 01397429 周川
+ * @version : 调度算法
  */
 public abstract class RpcLoadBalance {
 
@@ -52,7 +47,7 @@ public abstract class RpcLoadBalance {
      * 获取service的Map key为interface+Name value为zookeeper的注册服务信息
      *
      * @param connectedServerNode 连接信息
-     * @return Map<String, List < RpcProtocol>>
+     * @return Map
      */
     protected Map<String, List<RpcProtocol>> getServiceMap(Map<RpcProtocol, RpcClientHandler> connectedServerNode) {
         Map<String, List<RpcProtocol>> serviceMap = new HashMap<>();

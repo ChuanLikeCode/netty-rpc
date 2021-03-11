@@ -28,9 +28,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/1 10:57
+ * @author :  周川
+ * @version :
  */
 public class ThreadPoolUtil {
     public static ThreadPoolExecutor makeServerThreadPool(String serviceName, int corePoolSize, int maxPoolSize) {

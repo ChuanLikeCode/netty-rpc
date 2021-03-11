@@ -20,9 +20,8 @@ package com.sf.rpc.common.serializer;
 //                美女保佑         永无BUG
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/2/25 17:57
+ * @author : 周川
+ * @version :
  */
 public abstract class Serializer {
     public abstract <T> byte[] serializer(T obj);

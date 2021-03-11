@@ -28,16 +28,8 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @Author: 01397429 周川
- * @Description: 发送给 zookeeper 的服务信息
- * @Date: create in 2021/2/26 14:51
- */
-
-/**
- *  发送给 zookeeper 的服务信息
- *  private String host;//服务器IP地址
- *  private int port;//服务器端口地址
- *  private List<RpcServiceInfo> serviceInfoList;//注册的服务信息
+ * @author :  周川
+ * @version : 发送给 zookeeper 的服务信息
  */
 public class RpcProtocol implements Serializable {
     private static final long serialVersionUID = -3589086915641239900L;

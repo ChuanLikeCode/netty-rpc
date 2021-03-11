@@ -33,9 +33,8 @@ import java.lang.reflect.Method;
 import java.util.UUID;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/5 11:14
+ * @author : 01397429 周川
+ * @version :
  */
 public class ObjectProxy<T> implements InvocationHandler {
     private static final Logger logger = LoggerFactory.getLogger(ObjectProxy.class);

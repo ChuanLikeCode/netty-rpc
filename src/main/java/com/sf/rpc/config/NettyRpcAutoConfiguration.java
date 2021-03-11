@@ -42,9 +42,8 @@ import java.net.*;
 import java.util.Enumeration;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/9 19:20
+ * @author : 周川
+ * @version :
  */
 @Configuration
 @EnableConfigurationProperties(NettyRpcConfig.class)

@@ -32,9 +32,8 @@ import org.objenesis.strategy.StdInstantiatorStrategy;
 import javax.swing.*;
 
 /**
- * @Author: 01397429 周川
- * @Description: 序列化  反序列化 的池化技术  解决资源 提高性能 生产Kryo对象事消耗性能的
- * @Date: create in 2021/2/25 18:00
+ * @author :  周川
+ * @version : 序列化  反序列化 的池化技术  解决资源 提高性能 生产Kryo对象事消耗性能的
  */
 public class KryoPoolFactory {
     private static volatile KryoPoolFactory poolFactory = null;

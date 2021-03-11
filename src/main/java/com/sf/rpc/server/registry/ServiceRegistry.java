@@ -37,9 +37,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author: 01397429 周川
- * @Description: 服务注册
- * @Date: create in 2021/2/26 14:39
+ * @author :  周川
+ * @version : 服务注册
  */
 public class ServiceRegistry {
     private static final Logger logger = LoggerFactory.getLogger(ServiceRegistry.class);

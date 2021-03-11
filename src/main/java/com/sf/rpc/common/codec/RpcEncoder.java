@@ -29,9 +29,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @Author: 01397429 周川
- * @Description: 编码对象传输
- * @Date: create in 2021/2/26 10:13
+ * @author : 周川
+ * @version : 编码对象传输
  */
 public class RpcEncoder extends MessageToByteEncoder {
     private static final Logger logger = LoggerFactory.getLogger(RpcEncoder.class);

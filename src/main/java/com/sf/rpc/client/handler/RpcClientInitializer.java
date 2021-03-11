@@ -33,9 +33,8 @@ import io.netty.handler.timeout.IdleStateHandler;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Author: 01397429 周川
- * @Description:
- * @Date: create in 2021/3/2 18:09
+ * @author :  周川
+ * @version :
  */
 public class RpcClientInitializer extends ChannelInitializer<SocketChannel> {
     @Override

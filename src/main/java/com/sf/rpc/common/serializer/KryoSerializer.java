@@ -33,9 +33,8 @@ import java.io.IOException;
 import java.io.Serializable;
 
 /**
- * @Author: 01397429 周川
- * @Description: 主要用来序列化和反序列化得方法
- * @Date: create in 2021/2/25 18:00
+ * @author :  周川
+ * @version : 主要用来序列化和反序列化得方法
  */
 public class KryoSerializer extends Serializer {
 
