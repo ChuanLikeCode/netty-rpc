@@ -112,10 +112,7 @@ public class ConnectionManager {
         if (serviceList != null && serviceList.size() > 0) {
             // Update local server nodes cache
             HashSet<RpcProtocol> serviceSet = new HashSet<>(serviceList.size());
-            for (int i = 0; i < serviceList.size(); ++i) {
-                RpcProtocol rpcProtocol = serviceList.get(i);
-                serviceSet.add(rpcProtocol);
-            }
+            serviceSet.addAll(serviceList);
 
             // Add new server info
             for (final RpcProtocol rpcProtocol : serviceSet) {
