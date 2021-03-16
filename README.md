@@ -10,8 +10,8 @@ netty:
     register-address: 192.168.56.22:2181,192.168.56.23:2181,192.168.56.24:2181 #zookeeper的地址
     client-class-path: com.test.rpcclient.service #客户端存放service类的包路径 多个客户端用英文逗号分割
     server-rpc-port: 9700 #服务端开启的TCP端口号
-    server: true #是否作为客户端开启 则必须要有NettyService注解
-    client: true #是否作为服务端开启
+    server: true #是否作为服务端开启 则必须要有NettyService注解
+    client: true #是否作为客户端开启
     balance: RoundRobin #负载均衡策略 RoundRobin(轮询法)、LRU(Least Recently Used 即最近最少使用)、LFU(Least frequently used 最不经常使用)、ConsistentHash(一致性Hash算法)
 ```
 ### NettyRpcService 注解
