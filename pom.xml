@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.rpc</groupId>
+    <groupId>com.github.chuanlikecode</groupId>
     <artifactId>netty-rpc</artifactId>
     <version>1.0.0.RELEASE</version>
     <name>Netty-RPC</name>
