@@ -3,6 +3,14 @@
 ## 开启zookeeper
 例如:运行三个zookeeper节点：192.168.56.22:2181,192.168.56.23:2181,192.168.56.24:2181
 ## Spring 项目配置如下
+pom.xml文件加入依赖
+```
+<dependency>
+    <groupId>com.github.chuanlikecode</groupId>
+    <artifactId>netty-rpc</artifactId>
+    <version>1.0.0.RELEASE</version>
+</dependency>
+```
 无需显示启动，简单配置就能使用
 ```
 netty:
